@@ -1,13 +1,12 @@
 <?php
   class DBhome{
-    public function getQuantidade(){
-      return 5;
-    }
-    public function getNome(){
-      return "Fabrício";
-    }
-    public function getIdade(){
-      return 35;
+    public function getDados(){
+      $dados = array(
+        'nome' => 'Fabrício',
+        'idade' => '35',
+        'quantidade' => 5
+      );
+      return $dados;
     }
   }
  ?>

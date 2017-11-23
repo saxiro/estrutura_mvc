@@ -7,9 +7,7 @@
       $db = new DBhome();
 
         $dados = array(
-          'quantidade' => $db->getQuantidade(),
-          'nome' => $db->getNome(),
-          'idade' => $db->getIdade()
+          'h' => $db->getDados()
         );
         $this->loadTemplate('home',$dados);
 

@@ -5,13 +5,13 @@
   $config = array();
 
   if(ENVIRONMENT == 'development'){
-    define ('BASE_URL', 'http://localhost/estrutura_mvc/');
+    define ('BASE_URL', 'http://192.168.25.3/Sites/Projeto_Sites_2017/novo_projeto/');
     // $config['dbname'] = 'estrutura_mvc';
     // $config['host'] = 'localhost';
     // $config['dbuser'] = 'root';
     // $config['dbpass'] = '';
   } else {
-    define ('BASE_URL', 'http://webvila.com.br/mvc/');
+    define ('BASE_URL', 'http://webvila.com.br/novo_projeto/');
     // $config['dbname'] = 'estrutura_mvc';
     // $config['host'] = 'localhost';
     // $config['dbuser'] = 'root';
